@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Name="Page"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DateTimePickerSample;assembly=DateTimePickerSample"  
+             x:Class="DateTimePickerSample.MainPage">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:DateTimeToTicksConverter x:Key="DateTimeToTicksConverter"/>    
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <local:DateTimePicker HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        DateTicks="{Binding Date, Source={x:Reference Page}, Mode=TwoWay, Converter={StaticResource DateTimeToTicksConverter}}"/>
+</ContentPage>

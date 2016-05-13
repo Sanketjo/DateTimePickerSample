@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DateTimePickerSample/DateTimePickerSample/obj/Debug
+/DateTimePickerSample/DateTimePickerSample/bin/Debug
+/DateTimePickerSample/DateTimePickerSample.Droid/obj/Debug
+/DateTimePickerSample/DateTimePickerSample.iOS/bin/iPhoneSimulator/Debug
+/DateTimePickerSample/DateTimePickerSample.iOS/obj
+/packages
+/.vs/DateTimePickerSample/v14
+/DateTimePickerSample/DateTimePickerSample.Droid/bin/Debug
